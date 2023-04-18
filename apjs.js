@@ -1,3 +1,4 @@
+
 var messageBox = document.querySelector('.js-message');
   var btn = document.querySelector('.js-message-btn');
   var card = document.querySelector('.js-profile-card');
