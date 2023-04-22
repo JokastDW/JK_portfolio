@@ -275,6 +275,52 @@ html {
 	width: 100%;
 	flex-direction: column;
 }
+
+.que-faire{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+}
+.membres {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+.slam {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.sisr {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+#slam {
+	width: 300px;
+}
+
+#sisr {
+	width: 300px;
+}
+
+.texts .article{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+	bottom: 0;
+}
+
 .services .services-info .service {
 	width: 100%;
 	min-height: 300px;
@@ -492,3 +538,14 @@ html {
     }
 }
 
+
+
+/* code a ajouté */
+
+.bts-sio{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    gap: 30px;
+}
