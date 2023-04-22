@@ -310,7 +310,7 @@ html {
 	width: 300px;
 }
 
-.texts .article{
+.texts article{
 	position: relative;
 	display: flex;
 	flex-direction: column;
