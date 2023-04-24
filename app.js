@@ -7,3 +7,16 @@ hamburger_icon.addEventListener('click', () => {
 	hamburger_icon.classList.toggle('active');
 });
 
+var i = 0;
+var txt = "Mes différentes compétences sont les suivantes "; /* The text */
+var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("hero-name").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+typeWriter();
