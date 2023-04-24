@@ -25,6 +25,7 @@ html {
 	background-color: black;
 }
 .nav-bar {
+	z-index: 1;
 	background-color: black;
 	left: 0;
 	top: 0;
@@ -373,7 +374,7 @@ html {
 	text-align: center;
 }
 .services .services-info .service:nth-child(2) .service-card .service-front {
-	background-image: url(../image/Jokast\ Kassa.png);
+	background-image: url(../image/slam.jpg);
 	background-size: cover;
 	position: relative;
 	color: white;
@@ -474,6 +475,7 @@ html {
 		display: inline-block;
 	}
 	.hero {
+		margin-top: ;
 		height: 100vh;
 		flex-direction: row;
 		padding-left: 10%;
