@@ -516,6 +516,10 @@ html {
 	.services .services-info .service {
 		margin: 0;
 	}
+
+	/* .bts-sio{
+		flex-direction: column;
+	} */
 }
 /* End Media query for desktop and tab  */
 
@@ -546,8 +550,8 @@ html {
 
 .bts-sio{
 	display: flex;
+	flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     padding: 20px 30px;
     gap: 30px;
 }
